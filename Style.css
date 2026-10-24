@@ -6,7 +6,7 @@ h3{
 display: flex;
 }
 h3{
-    color: blue;
+    color: rgb(194, 194, 226);
 }
 .Midphoto{
     height: 150px;
@@ -16,21 +16,146 @@ h3{
     height: 60px;
 }
 nav > ul{
-    color: rgb(28, 109, 82);
+    color: rgb(194, 194, 226);
     list-style: none;
     align-content: center;
     display: flex;
     gap: 20px;
 }
 .NameTag{
-    background-color: azure;
+    background-color: rgb(28, 42, 42);
 }
 footer {
     background-color: rgba(123, 19, 160, 0.47);
     color: white;
     text-align: center;
     padding: 10px;
-    border-style: groove;
+    border-style: groove
+}
+body {
+    background-color: #0B0D10;
+    color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    text-align: left;
+}
+h1 {
+    color: #FFFFFF;
+    background-color: #11151A;
+    font-family: "Noto Sans Georgian", "Sylfaen", Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    text-align: center;
+    text-transform: none;
+}
+h2 {
+    color: #FFFFFF;
+    background-color: #151A20;
+    font-family: "Noto Sans Georgian", "Sylfaen", Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: left;
+}
+p {
+    color: #C7CDD4;
+    background-color: #0B0D10;
+    font-family: "Noto Sans Georgian", "Sylfaen", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0px;
+    text-align: left;
+}
+a {
+    color: #E82127;
+    background-color: transparent;
+    font-family: "Noto Sans Georgian", "Sylfaen", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: underline;
+}
+nav a {
+    color: #F5F7FA;
+    background-color: transparent;
+    font-family: "Noto Sans Georgian", "Sylfaen", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+}
+.button {
+    color: #FFFFFF;
+    background-color: #E82127;
+    font-family: "Noto Sans Georgian", "Sylfaen", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+}
+header {
+    background-color: #0B0D10;
+    color: #FFFFFF;
+    font-family: "Noto Sans Georgian", "Sylfaen", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
 
-  
+.Logoimg{
+    text-align: left;
+}
+
+nav {
+    text-align: center;
+}
+footer {
+    color: #8F98A3;
+    background-color: #15191E;
+    font-family: "Noto Sans Georgian", "Sylfaen", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #E82127;
+    font-weight: 700;
+    text-decoration: underline;
+}
+:root {
+    --main-bg: #0B0D10;
+    --dark-bg: #151A20;
+    --footer-bg: #15191E;
+
+    --main-text: #F5F7FA;
+    --secondary-text: #C7CDD4;
+    --muted-text: #8F98A3;
+
+    --tesla-red: #E82127;
+    --dark-red: #B9151B;
 }
